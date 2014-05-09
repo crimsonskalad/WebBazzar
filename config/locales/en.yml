@@ -23,31 +23,31 @@ en:
 
   layouts:
     application:
-      title: "!!Bazzar Finds!!"
-      home: "Home"
-      questions: "? Questions ?"
-      news: "News"
-      contact: "Contact"
-
-  store:
-    index:
-      title: "Your Bazzar Catalogue"
-      add: "Add to Cart"
+      title:        "!!Bazzar Finds!!"
+      home:         "Home"
+      questions:    "? Questions ?"
+      news:         "News"
+      contact:      "Contact"
 
   carts:
     cart:
-      title: "Your Bazzar Treasures!"
-      checkout: "Checkout"
-      empty: "Empty Cart"
+      title:        "Your Bazzar Treasures!"
+      checkout:     "Checkout"
+      empty:        "Empty Cart"
+
+  store:
+    index:
+      title:        "Your Bazzar Catalogue"
+      add:          "Add to Cart"
 
   number:
     currency:
       format:
-        unit: "$"
-        precision: 2
-        seperator: "."
-        delimiter: ","
-        format: "%u%n"
+        unit:       "$"
+        precision:  2
+        seperator:  "."
+        delimiter:  ","
+        format:     "%u%n"
 
   errors:
     template:
