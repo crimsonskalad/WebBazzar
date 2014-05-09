@@ -53,3 +53,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Heroku specific gem
 gem 'rails_12factor', group:  :production
+
+# set ruby version
+ruby '2.0.0'
