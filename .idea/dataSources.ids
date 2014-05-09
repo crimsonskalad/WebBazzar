@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails Bazzar: test" uuid="798493a5-ac1b-43ce-a777-619c41eaf41d">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails Bazzar: production" uuid="b635d276-02fb-456d-b8df-35b20636fcf0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
