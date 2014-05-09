@@ -1,0 +1,7 @@
+Dear <%= @order.name %>
+
+Thank you for your recent Bazzar Order.
+
+Your order containing:
+    <%= render @order.line_items -%>
+Will be shipped soon, and we will inform you via email when your order ships.

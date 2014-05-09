@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+#banner {
+    background: #244;
+    padding: 10px;
+    border-bottom: 2px solid;
+    font: small-caps 40px/40px "Times New Roman", serif;
+    color: #881a1e;
+    text-align: center;
+
+    img {
+        float: left;
+    }
+}
+
+#notice {
+    color: #880 !important;
+    border: 2px solid red;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #000;
+    font: bold smaller sans-serif;
+}
+
+#columns {
+    background: #881a1e;
+
+    #main {
+        margin-left: 17em;
+        padding: 1em;
+        background: #6e6e6e;
+    }
+
+    #side {
+        float: left;
+        padding: 1em 2em;
+        width: 13em;
+        background: #881a1e;
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+      color: #ebd3a1;
+
+      table {
+        border-top: 1px dotted #B54141;
+        border-bottom: 1px dotted #B54141;
+        margin-bottom: 10px;
+      }
+    }
+
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            a {
+                color: #f7da74;
+                font-size: small;
+              }
+            }
+        }
+    }
+}
+
+.bazzar_form {
+  fieldset {
+    background: #efe;
+
+    legend {
+      color: #dfd;
+      background: #881a1e;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+  }
+
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+
+    .submit {
+      margin-left: 4em;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
