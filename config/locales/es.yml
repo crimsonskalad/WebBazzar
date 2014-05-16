@@ -10,7 +10,7 @@ es:
 
   store:
     index:
-      title_html:    "Su Catálogo de Bazzaro"
+      title:         "Su Catálogo de Bazzaro"
       add:           "Añdir al Carrito"
 
   carts:

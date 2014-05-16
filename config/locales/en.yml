@@ -37,7 +37,7 @@ en:
 
   store:
     index:
-      title_html:   "Your Bazzar Catalogue"
+      title:        "Your Bazzar Catalogue"
       add:          "Add to Cart"
 
   number:

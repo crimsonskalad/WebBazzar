@@ -11,8 +11,8 @@ Bazzar::Application.configure do
       address: "smtp.gmail.com",
       port: 587,
       authentication: "plain",
-      user_name: "jtw454@gmail.com",
-      password: "jtw!442@SPEED",
+      user_name: "",
+      password: "",
       enable_starttls_auto: true
   }
 end
