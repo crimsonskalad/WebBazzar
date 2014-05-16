@@ -37,7 +37,7 @@ en:
 
   store:
     index:
-      title:        "Your Bazzar Catalogue"
+      title:        'Your Bazzar Catalogue'
       add:          "Add to Cart"
 
   number:
@@ -52,9 +52,9 @@ en:
   errors:
     template:
       body:          "There were problems with the following fields:"
-        header:
-          one:       "1 error prohibited this %{model} from being saved"
-          other:     "%{count} errors prohibited this %{model} from being saved"
+      header:
+        one:       "1 error prohibited this %{model} from being saved"
+        other:     "%{count} errors prohibited this %{model} from being saved"
 
   orders:
     new:
